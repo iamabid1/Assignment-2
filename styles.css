@@ -1,0 +1,237 @@
+/* Shared Styles  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Work Sans", serif;
+}
+
+
+.navbar {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* justify-content: center; */
+}
+.contact {
+    color: white;
+    background: orange;
+    padding: 15px 30px 15px 30px;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    left: 120px;
+}
+
+.options {
+    justify-content: space-between;
+    display: flex;
+    align-items: baseline;
+}
+
+.school-name {
+    margin-right: 170px;
+    color: rgb(17, 17, 17);
+}
+
+.option-list {
+    margin-left: 40px;
+}
+
+.options button {
+    margin-left: 170px;
+}
+
+.home {
+    color: rgb(254, 163, 1);
+    cursor: pointer;
+}
+
+.about {
+    color: rgb(1, 172, 253);
+    cursor: pointer;
+}
+
+.faci {
+    color: rgb(93, 88, 239);
+    cursor: pointer;
+}
+
+.admit {
+    color: rgb(5, 212, 223);
+    cursor: pointer;
+}
+
+
+.btn-c {
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.contact:hover {
+    color: black;
+    transition: 1.5s;
+    background-color: rgba(255, 166, 0, 0.529);
+}
+
+.logo-container {
+    display: flex;
+    margin: none;
+}
+
+.menu {
+    width: 15px;
+    justify-content: center;
+    display: none;
+}
+
+.hr-1 {
+    color: orange;
+    display: none;
+}
+
+.banner-1 h1 {
+    width: 640px;
+    font-size: 45px;
+    font-weight: 650;
+    line-height: 55px;
+
+}
+
+.banner-1 p {
+    width: 640px;
+    color: rgb(17, 17, 17);
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner-1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    top: 70px;
+    
+}
+.section-1 {
+    display: flex;
+}
+.img-hero {
+    width: 380px;
+}
+.Empowering {
+    color:  rgb(254, 163, 1) ;
+}
+.agtv {
+    color: rgb(1, 172, 253);
+}
+.sfm {
+    color: rgb(17, 17, 17);
+}
+.en-btn {
+    color: white;
+    font-weight: bold;
+    background: black;
+    border-radius: 12px;
+    padding: 15px 22px 15px 22px;
+    border: none;
+}
+.en-btn:hover {
+    color: antiquewhite;
+    background: rgb(77, 77, 77);
+    transition: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .options {
+        display: none;
+    }
+
+    .logo,
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        width: 45px;
+    }
+
+    .logo {
+        position: relative;
+        right: 90px;
+        top: 23px;
+    }
+
+    .btn-c {
+        display: none;
+    }
+
+    .menu-m {
+        width: 10px;
+        position: relative;
+        left: 400px;
+        bottom: 20px;
+    }
+
+    .hr-1 {
+        display: block;
+        border: 1px solid orange;
+        width: 152%;
+        position: relative;
+        right: 35px;
+        transform: translateX(-10%);
+    }
+}
