@@ -383,6 +383,55 @@ body {
     display: flex;
     gap: 30px;
 }
+.ending-1 {
+    display: flex;
+
+}
+.ending-1 h1 {
+    font-weight: 585;
+}
+.ending-1 img {
+    width: 60px;
+    height: 100px;
+    padding-left: 70px;
+}
+.ending-1-p {
+    width: 350px;
+    position: relative;
+    top:  120px;
+    right: 150px;
+}
+.about-school-li  {
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    color: white;
+}
+.about-school {
+    position: relative;
+    right: 180px;
+    
+}
+.img-t {
+    width: 30px;
+}
+.keep-in-t {
+    position: relative;
+    right: 90px;
+    margin-right: 70px;
+}
+.list-op {
+    list-style-type: none;
+}
+.finale-ending {
+    justify-content: space-between;
+    display: flex;
+    align-items: space-between;
+    background: rgba(237, 164, 29, 0.764);
+    padding-bottom: 150px;
+    padding-top: 70px;
+    color: white;
+}
 
 
 
@@ -500,5 +549,23 @@ body {
     }
     .story-card-container {
         padding: 0;
+    }
+    .finale-ending {
+        flex-direction: column;
+        position: relative;
+        margin-top: 50px;
+    }
+    .about-school {
+        left: 10px;
+        top: 110px;       
+    }
+    .ending-1 {
+        position: relative;
+        right: 30px;
+    }
+    .keep-in-t {
+        position: relative;
+        left: 40px;
+        top: 100px;
     }
 }
