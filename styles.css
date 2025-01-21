@@ -201,46 +201,51 @@ body {
 
 .card-disc {
     text-align: center;
-    color:  rgb(128, 128, 128);
+    color: rgb(128, 128, 128);
     line-height: 20px;
     padding: 30px;
     font-size: 15px;
 }
+
 .card-name {
     font-weight: 550;
     color: rgb(32, 32, 32);
 }
-.RM {
-    
-}
+
+.RM {}
+
 .rm-3 {
     position: relative;
     bottom: 24px;
     color: rgb(135, 0, 255);
     cursor: pointer;
 }
+
 .rm-2 {
     color: rgb(240, 170, 0);
     cursor: pointer;
 }
+
 .rm-1 {
-    color: 
-    rgb(100, 200, 255);
+    color:
+        rgb(100, 200, 255);
     cursor: pointer;
 }
+
 .arrows {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.arrows p {
+.arrows p {}
 
- }
 .right {
     margin-left: 20px;
 }
-.right, .left {
+
+.right,
+.left {
     font-weight: bolder;
     background-color: orange;
     padding: 20px;
@@ -249,11 +254,13 @@ body {
     font-size: 17px;
     cursor: pointer;
 }
+
 .section-2 {
     background-size: cover;
     background-image: url(assets/bg.png);
     margin-top: 100px;
 }
+
 .os {
     text-align: center;
     justify-content: center;
@@ -263,43 +270,119 @@ body {
     margin-bottom: 50px;
 }
 
+.story-1-h2 {
+    width: 400px;
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.story-1-p {
+    width: 440px;
+}
+.story-card-1{
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding-bottom: 30px;
+    width: 475px;
+    padding-bottom: 70px;
+    
+}
+.story-card-1 img {
+    width: 420px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.story-1-h2, .story-1-p{
+    position: relative;
+    left: 30px;
+}
+.date-story-1 {
+    color: white;
+    background-color: rgb(67, 245, 245);
+    border-radius: 38px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    left: 40px;
+    right: 110px;
+    bottom: 255px;
+}
+.section-3 {
+    background-image: url(assets/bg.png);
+    background-size: cover;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+.story-1-2 {
+    display: inline;
+}
+.small-story-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    width: 280px;
+    gap: 20px;
+}
+.small-story-container h3 {
+    font-weight: 550;
+}
+.story-card-container {
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.story-card-container img {
+    width: 250px;
+}
+.btnss {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 38px;
+    position: relative;
+    right: 60px;
+    bottom: 100px;
+}
 
+.viewa-container {
+    justify-content: center;
+    align-items: center;
+    margin: 0, auto;
+    text-align: center;
+    margin-top: 50px;
+}
 
+.viewa {
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.viewa:hover {
+    color: black;
+    background-color: bisque;
+    transition: 1.5s;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.section-3 {
+    
+}
+.toflex {
+    display: flex;
+    gap: 30px;
+}
 
 
 
@@ -363,7 +446,7 @@ body {
         right: 50px;
         width: 100%;
         bottom: 80px;
-        left: 7px;
+        right: 30px;
         /* margin-left: 70px; */
     }
 
@@ -384,20 +467,38 @@ body {
         position: relative;
         margin-left: 70px;
     }
+
     .section-2 {
         flex-direction: column;
         /* left: 20px; */
     }
+
     .card {
         flex-direction: column;
         position: relative;
         right: 70px;
     }
+
     .card-container {
         margin-bottom: 30px;
         width: 500px;
     }
+
     .arrows {
         display: none;
+    }
+    .story-card-1 {
+        display: none;
+    }
+    .section-3 {
+        margin: 0;
+        position: relative;
+        right: 18px;
+    }
+    .story-card-container img {
+        width: 100%;
+    }
+    .story-card-container {
+        padding: 0;
     }
 }
